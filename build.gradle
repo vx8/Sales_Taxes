@@ -1,0 +1,11 @@
+plugins {
+id 'org.openbakery.xcode-plugin' version '0.14.3'
+}
+
+xcodebuild {
+scheme = 'Sales Taxes'
+target = 'Sales Taxes'
+type = 'ios'
+simulator = 'true'
+configuration = 'Debug'
+}

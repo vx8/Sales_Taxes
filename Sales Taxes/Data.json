@@ -1,0 +1,77 @@
+ [{
+  "name":"input 1",
+  "basket": [
+             {
+             "name": "book",
+             "price": 12.49,
+             "imported": 0,
+             "tax": 0,
+             "quantity": 1
+             },
+             {
+             "name": "music CD",
+             "price": 14.99,
+             "imported": 0,
+             "tax": 10,
+             "quantity": 1
+             },
+             {
+             "name": "chocolate bar",
+             "price": 0.85,
+             "imported": 0,
+             "tax": 0,
+             "quantity": 1
+             }
+             ]},
+  {
+  "name":"input 2",
+  "basket": [
+             {
+             "name": "box of chocolates",
+             "price": 10,
+             "imported": 1,
+             "tax": 0,
+             "quantity": 1
+             },
+             {
+             "name": "bottle of perfume",
+             "price": 47.5,
+             "imported": 1,
+             "tax": 10,
+             "quantity": 1
+             }
+             ]},
+  {
+  "name":"input 3",
+  
+  "basket": [
+             {
+             "name": "bottle of perfume",
+             "price": 27.99,
+             "imported": 1,
+             "tax": 10,
+             "quantity": 1
+             },
+             {
+             "name": "bottle of perfume",
+             "price": 18.99,
+             "imported": 0,
+             "tax": 10,
+             "quantity": 1
+             },
+             {
+             "name": "packet of headache pills",
+             "price": 9.75,
+             "imported": 0,
+             "tax": 0,
+             "quantity": 1
+             },
+             {
+             "name": "box of chocolates",
+             "price": 11.25,
+             "imported": 1,
+             "tax": 0,
+             "quantity": 1
+             }
+             ]}
+  ]

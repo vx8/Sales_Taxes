@@ -1,0 +1,12 @@
+language: objective-c
+osx_image: xcode8.3
+xcode_project: "Sales Taxes.xcodeproj"
+xcode_scheme: "Sales Taxes"
+xcode_sdk: iphonesimulator10.1
+before_install:
+  - gem install xcpretty
+script:
+  - set -o pipefail
+  - xcodebuild -version
+  - xcodebuild -showsdks
+  - xcodebuild -project "Sales Taxes.xcodeproj" -scheme "Sales Taxes" -sdk iphonesimulator -destination 'name=iPhone 6' test | xcpretty -c

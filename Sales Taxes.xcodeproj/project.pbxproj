@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		167A8F941DDC709A0092BAAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 167A8F931DDC709A0092BAAB /* main.m */; };
+		167A8F971DDC709A0092BAAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 167A8F961DDC709A0092BAAB /* AppDelegate.m */; };
+		167A8F9A1DDC709A0092BAAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 167A8F991DDC709A0092BAAB /* ViewController.m */; };
+		167A8F9D1DDC709A0092BAAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 167A8F9B1DDC709A0092BAAB /* Main.storyboard */; };
+		167A8F9F1DDC709A0092BAAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 167A8F9E1DDC709A0092BAAB /* Assets.xcassets */; };
+		167A8FA21DDC709A0092BAAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 167A8FA01DDC709A0092BAAB /* LaunchScreen.storyboard */; };
+		167A8FB91DDC714D0092BAAB /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 167A8FB81DDC714D0092BAAB /* Product.m */; };
+		167A8FBA1DDC714D0092BAAB /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 167A8FB81DDC714D0092BAAB /* Product.m */; };
+		167A8FBC1DDC78260092BAAB /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 167A8FBB1DDC78260092BAAB /* Data.json */; };
+		167A8FBD1DDC78260092BAAB /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 167A8FBB1DDC78260092BAAB /* Data.json */; };
+		167A8FC01DDC7A230092BAAB /* Basket.m in Sources */ = {isa = PBXBuildFile; fileRef = 167A8FBF1DDC7A230092BAAB /* Basket.m */; };
+		167A8FC11DDC7A230092BAAB /* Basket.m in Sources */ = {isa = PBXBuildFile; fileRef = 167A8FBF1DDC7A230092BAAB /* Basket.m */; };
+		167A8FC41DDC7DDF0092BAAB /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 167A8FC31DDC7DDF0092BAAB /* Utils.m */; };
+		167A8FC51DDC7DDF0092BAAB /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 167A8FC31DDC7DDF0092BAAB /* Utils.m */; };
+		167A8FC81DDC91F80092BAAB /* Purchase.m in Sources */ = {isa = PBXBuildFile; fileRef = 167A8FC71DDC91F80092BAAB /* Purchase.m */; };
+		167A8FC91DDC91F80092BAAB /* Purchase.m in Sources */ = {isa = PBXBuildFile; fileRef = 167A8FC71DDC91F80092BAAB /* Purchase.m */; };
+		167A8FCC1DDCBBE30092BAAB /* ReceiptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 167A8FCB1DDCBBE30092BAAB /* ReceiptViewController.m */; };
+		167A8FCD1DDCBBE30092BAAB /* ReceiptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 167A8FCB1DDCBBE30092BAAB /* ReceiptViewController.m */; };
+		167A8FDF1DDDA1CB0092BAAB /* Purchase_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 167A8FDE1DDDA1CB0092BAAB /* Purchase_Tests.m */; };
+		167A8FE11DDDA2610092BAAB /* Basket_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 167A8FE01DDDA2610092BAAB /* Basket_Tests.m */; };
+		167A8FE31DDDA90F0092BAAB /* Product_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 167A8FE21DDDA90F0092BAAB /* Product_Tests.m */; };
+		167A8FE51DDDA98D0092BAAB /* Utils_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 167A8FE41DDDA98D0092BAAB /* Utils_Tests.m */; };
+		167A8FE71DDDBC070092BAAB /* build.gradle in Resources */ = {isa = PBXBuildFile; fileRef = 167A8FE61DDDBC070092BAAB /* build.gradle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		167A8FB21DDC70EA0092BAAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 167A8F871DDC709A0092BAAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 167A8F8E1DDC709A0092BAAB;
+			remoteInfo = "Sales Taxes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		167A8F8F1DDC709A0092BAAB /* Sales Taxes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sales Taxes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		167A8F931DDC709A0092BAAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		167A8F951DDC709A0092BAAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		167A8F961DDC709A0092BAAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		167A8F981DDC709A0092BAAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		167A8F991DDC709A0092BAAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		167A8F9C1DDC709A0092BAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		167A8F9E1DDC709A0092BAAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		167A8FA11DDC709A0092BAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		167A8FA31DDC709A0092BAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167A8FAD1DDC70EA0092BAAB /* Sales Taxes Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sales Taxes Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		167A8FB11DDC70EA0092BAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167A8FB71DDC714D0092BAAB /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		167A8FB81DDC714D0092BAAB /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		167A8FBB1DDC78260092BAAB /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Data.json; path = "Sales Taxes/Data.json"; sourceTree = SOURCE_ROOT; };
+		167A8FBE1DDC7A230092BAAB /* Basket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Basket.h; sourceTree = "<group>"; };
+		167A8FBF1DDC7A230092BAAB /* Basket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Basket.m; sourceTree = "<group>"; };
+		167A8FC21DDC7DDF0092BAAB /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = "Sales Taxes Tests/Utils.h"; sourceTree = SOURCE_ROOT; };
+		167A8FC31DDC7DDF0092BAAB /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utils.m; path = "Sales Taxes Tests/Utils.m"; sourceTree = SOURCE_ROOT; };
+		167A8FC61DDC91F80092BAAB /* Purchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Purchase.h; sourceTree = "<group>"; };
+		167A8FC71DDC91F80092BAAB /* Purchase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Purchase.m; sourceTree = "<group>"; };
+		167A8FCA1DDCBBE30092BAAB /* ReceiptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiptViewController.h; sourceTree = "<group>"; };
+		167A8FCB1DDCBBE30092BAAB /* ReceiptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiptViewController.m; sourceTree = "<group>"; };
+		167A8FDE1DDDA1CB0092BAAB /* Purchase_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Purchase_Tests.m; sourceTree = "<group>"; };
+		167A8FE01DDDA2610092BAAB /* Basket_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Basket_Tests.m; sourceTree = "<group>"; };
+		167A8FE21DDDA90F0092BAAB /* Product_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product_Tests.m; sourceTree = "<group>"; };
+		167A8FE41DDDA98D0092BAAB /* Utils_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils_Tests.m; sourceTree = "<group>"; };
+		167A8FE61DDDBC070092BAAB /* build.gradle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = build.gradle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		167A8F8C1DDC709A0092BAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167A8FAA1DDC70EA0092BAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		167A8F861DDC709A0092BAAB = {
+			isa = PBXGroup;
+			children = (
+				167A8FE61DDDBC070092BAAB /* build.gradle */,
+				167A8F911DDC709A0092BAAB /* Sales Taxes */,
+				167A8FAE1DDC70EA0092BAAB /* Sales Taxes Tests */,
+				167A8F901DDC709A0092BAAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		167A8F901DDC709A0092BAAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				167A8F8F1DDC709A0092BAAB /* Sales Taxes.app */,
+				167A8FAD1DDC70EA0092BAAB /* Sales Taxes Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		167A8F911DDC709A0092BAAB /* Sales Taxes */ = {
+			isa = PBXGroup;
+			children = (
+				167A8FCF1DDCD8C80092BAAB /* View Controllers */,
+				167A8F951DDC709A0092BAAB /* AppDelegate.h */,
+				167A8F961DDC709A0092BAAB /* AppDelegate.m */,
+				167A8F9B1DDC709A0092BAAB /* Main.storyboard */,
+				167A8F9E1DDC709A0092BAAB /* Assets.xcassets */,
+				167A8FA01DDC709A0092BAAB /* LaunchScreen.storyboard */,
+				167A8FA31DDC709A0092BAAB /* Info.plist */,
+				167A8F921DDC709A0092BAAB /* Supporting Files */,
+				167A8FCE1DDCD8A80092BAAB /* Models */,
+			);
+			path = "Sales Taxes";
+			sourceTree = "<group>";
+		};
+		167A8F921DDC709A0092BAAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				167A8FC21DDC7DDF0092BAAB /* Utils.h */,
+				167A8FC31DDC7DDF0092BAAB /* Utils.m */,
+				167A8F931DDC709A0092BAAB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		167A8FAE1DDC70EA0092BAAB /* Sales Taxes Tests */ = {
+			isa = PBXGroup;
+			children = (
+				167A8FE41DDDA98D0092BAAB /* Utils_Tests.m */,
+				167A8FDE1DDDA1CB0092BAAB /* Purchase_Tests.m */,
+				167A8FE01DDDA2610092BAAB /* Basket_Tests.m */,
+				167A8FE21DDDA90F0092BAAB /* Product_Tests.m */,
+				167A8FBB1DDC78260092BAAB /* Data.json */,
+				167A8FB11DDC70EA0092BAAB /* Info.plist */,
+			);
+			path = "Sales Taxes Tests";
+			sourceTree = "<group>";
+		};
+		167A8FCE1DDCD8A80092BAAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				167A8FC61DDC91F80092BAAB /* Purchase.h */,
+				167A8FC71DDC91F80092BAAB /* Purchase.m */,
+				167A8FBE1DDC7A230092BAAB /* Basket.h */,
+				167A8FBF1DDC7A230092BAAB /* Basket.m */,
+				167A8FB71DDC714D0092BAAB /* Product.h */,
+				167A8FB81DDC714D0092BAAB /* Product.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		167A8FCF1DDCD8C80092BAAB /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				167A8FCA1DDCBBE30092BAAB /* ReceiptViewController.h */,
+				167A8FCB1DDCBBE30092BAAB /* ReceiptViewController.m */,
+				167A8F981DDC709A0092BAAB /* ViewController.h */,
+				167A8F991DDC709A0092BAAB /* ViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		167A8F8E1DDC709A0092BAAB /* Sales Taxes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167A8FA61DDC709A0092BAAB /* Build configuration list for PBXNativeTarget "Sales Taxes" */;
+			buildPhases = (
+				167A8F8B1DDC709A0092BAAB /* Sources */,
+				167A8F8C1DDC709A0092BAAB /* Frameworks */,
+				167A8F8D1DDC709A0092BAAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sales Taxes";
+			productName = "Sales Taxes";
+			productReference = 167A8F8F1DDC709A0092BAAB /* Sales Taxes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		167A8FAC1DDC70EA0092BAAB /* Sales Taxes Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167A8FB41DDC70EA0092BAAB /* Build configuration list for PBXNativeTarget "Sales Taxes Tests" */;
+			buildPhases = (
+				167A8FA91DDC70EA0092BAAB /* Sources */,
+				167A8FAA1DDC70EA0092BAAB /* Frameworks */,
+				167A8FAB1DDC70EA0092BAAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				167A8FB31DDC70EA0092BAAB /* PBXTargetDependency */,
+			);
+			name = "Sales Taxes Tests";
+			productName = "Sales Taxes Tests";
+			productReference = 167A8FAD1DDC70EA0092BAAB /* Sales Taxes Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		167A8F871DDC709A0092BAAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Matteo Spreafico";
+				TargetAttributes = {
+					167A8F8E1DDC709A0092BAAB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					167A8FAC1DDC70EA0092BAAB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 167A8F8E1DDC709A0092BAAB;
+					};
+				};
+			};
+			buildConfigurationList = 167A8F8A1DDC709A0092BAAB /* Build configuration list for PBXProject "Sales Taxes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 167A8F861DDC709A0092BAAB;
+			productRefGroup = 167A8F901DDC709A0092BAAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				167A8F8E1DDC709A0092BAAB /* Sales Taxes */,
+				167A8FAC1DDC70EA0092BAAB /* Sales Taxes Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		167A8F8D1DDC709A0092BAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167A8FE71DDDBC070092BAAB /* build.gradle in Resources */,
+				167A8FA21DDC709A0092BAAB /* LaunchScreen.storyboard in Resources */,
+				167A8F9F1DDC709A0092BAAB /* Assets.xcassets in Resources */,
+				167A8F9D1DDC709A0092BAAB /* Main.storyboard in Resources */,
+				167A8FBC1DDC78260092BAAB /* Data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167A8FAB1DDC70EA0092BAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167A8FBD1DDC78260092BAAB /* Data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		167A8F8B1DDC709A0092BAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167A8FC01DDC7A230092BAAB /* Basket.m in Sources */,
+				167A8F9A1DDC709A0092BAAB /* ViewController.m in Sources */,
+				167A8FB91DDC714D0092BAAB /* Product.m in Sources */,
+				167A8FC41DDC7DDF0092BAAB /* Utils.m in Sources */,
+				167A8F971DDC709A0092BAAB /* AppDelegate.m in Sources */,
+				167A8FCC1DDCBBE30092BAAB /* ReceiptViewController.m in Sources */,
+				167A8F941DDC709A0092BAAB /* main.m in Sources */,
+				167A8FC81DDC91F80092BAAB /* Purchase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167A8FA91DDC70EA0092BAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167A8FDF1DDDA1CB0092BAAB /* Purchase_Tests.m in Sources */,
+				167A8FCD1DDCBBE30092BAAB /* ReceiptViewController.m in Sources */,
+				167A8FC91DDC91F80092BAAB /* Purchase.m in Sources */,
+				167A8FBA1DDC714D0092BAAB /* Product.m in Sources */,
+				167A8FE11DDDA2610092BAAB /* Basket_Tests.m in Sources */,
+				167A8FE31DDDA90F0092BAAB /* Product_Tests.m in Sources */,
+				167A8FC11DDC7A230092BAAB /* Basket.m in Sources */,
+				167A8FC51DDC7DDF0092BAAB /* Utils.m in Sources */,
+				167A8FE51DDDA98D0092BAAB /* Utils_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		167A8FB31DDC70EA0092BAAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 167A8F8E1DDC709A0092BAAB /* Sales Taxes */;
+			targetProxy = 167A8FB21DDC70EA0092BAAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		167A8F9B1DDC709A0092BAAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				167A8F9C1DDC709A0092BAAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		167A8FA01DDC709A0092BAAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				167A8FA11DDC709A0092BAAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		167A8FA41DDC709A0092BAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		167A8FA51DDC709A0092BAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		167A8FA71DDC709A0092BAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sales Taxes/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MS.Sales-Taxes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		167A8FA81DDC709A0092BAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sales Taxes/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MS.Sales-Taxes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		167A8FB51DDC70EA0092BAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sales Taxes Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MS.Sales-Taxes-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sales Taxes.app/Sales Taxes";
+			};
+			name = Debug;
+		};
+		167A8FB61DDC70EA0092BAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sales Taxes Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MS.Sales-Taxes-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sales Taxes.app/Sales Taxes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		167A8F8A1DDC709A0092BAAB /* Build configuration list for PBXProject "Sales Taxes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167A8FA41DDC709A0092BAAB /* Debug */,
+				167A8FA51DDC709A0092BAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		167A8FA61DDC709A0092BAAB /* Build configuration list for PBXNativeTarget "Sales Taxes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167A8FA71DDC709A0092BAAB /* Debug */,
+				167A8FA81DDC709A0092BAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		167A8FB41DDC70EA0092BAAB /* Build configuration list for PBXNativeTarget "Sales Taxes Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167A8FB51DDC70EA0092BAAB /* Debug */,
+				167A8FB61DDC70EA0092BAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 167A8F871DDC709A0092BAAB /* Project object */;
+}
